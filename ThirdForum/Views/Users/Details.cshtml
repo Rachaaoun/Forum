@@ -1,0 +1,121 @@
+﻿@model ThirdForum.Models.User
+
+@{
+    ViewData["Title"] = "Details";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../Back/assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../../Back/assets/img/favicon.png">
+    <title>
+        Soft UI Dashboard by Creative Tim
+    </title>
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <!-- Nucleo Icons -->
+    <link href="../../Back/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="../../Back/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <link href="../../Back/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link id="pagestyle" href="../../Back/assets/css/soft-ui-dashboard.css?v=1.0.7" rel="stylesheet" />
+</head>
+
+<style>
+    .inf-content
+    {
+    border:1px solid #DDDDDD;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+    }
+
+</style>
+<div class="container bootstrap snippets bootdey">
+    <div class="panel-body inf-content">
+        <div class="row">
+            <div class="col-md-4">
+                <img alt="" style="width:600px;" title="" class="img-circle img-thumbnail isTooltip" src="@Html.DisplayFor(model => model.avatar)" data-original-title="Usuario">
+                <ul title="Ratings" class="list-inline ratings text-center">
+                    <li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <strong style="margin-bottom:20px">User Information</strong><br>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>
+                                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                                        Psuedo
+                                    </strong>
+                                </td>
+                                <td class="text-primary">
+                                    @Html.DisplayFor(model => model.psuedo)
+
+                                </td>
+                            </tr>
+                         
+                            <tr>
+                                <td>
+                                    <strong>
+                                        <i class="fa fa-key" aria-hidden="true"></i>
+                                        Password
+                                    </strong>
+                                </td>
+                                <td class="text-primary">
+                                    @Html.DisplayFor(model => model.motpasse)
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <strong>
+                                        <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                                        Role
+                                    </strong>
+                                </td>
+                                <td class="text-primary">
+                                    @Html.DisplayFor(model => model.role)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        Email
+                                    </strong>
+                                </td>
+                                <td class="text-primary">
+                                    @Html.DisplayFor(model => model.email)
+
+                                </td>
+                            </tr>
+                          
+                            
+                        </tbody>
+                    </table>
+                </div>
+                   <div style="margin-bottom:15px;float: inline-end;">
+                <a class="btn btn-secondary btn-sm" role="button" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> 
+       <a class="btn btn-primary btn-sm" role="button" asp-action="Index">Back to List</a>
+            </div>
+            </div>
+         
+        </div>
+    </div>
+</div>
+

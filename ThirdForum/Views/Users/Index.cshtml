@@ -1,0 +1,89 @@
+﻿@model IEnumerable<ThirdForum.Models.User>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../Back/assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../../Back/assets/img/favicon.png">
+  <title>
+    Soft UI Dashboard by Creative Tim
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <!-- Nucleo Icons -->
+  <link href="../../Back/assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="../../Back/assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link href="../../Back/assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link id="pagestyle" href="../../Back/assets/css/soft-ui-dashboard.css?v=1.0.7" rel="stylesheet" />
+</head>
+
+<style>
+th{
+    text-align:center;
+}
+
+</style>
+<h1>Users</h1>
+
+<div class="card">
+    <div class="card-body">
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                Username 
+            </th>
+            <th>
+                 Avatar
+            </th>
+            <th>
+                Email 
+            </th>
+
+            <th>
+                Role
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr >
+                        <td style="text-align:center">
+                @Html.DisplayFor(modelItem => item.psuedo)
+            </td style="text-align:center" >
+            <td >
+                <center>
+                <img src="@item.avatar" width="50px">
+                </center>
+            </td>
+            <td style="text-align:center" >
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.role)
+            </td style="text-align:center">
+            <td style="text-align:center">
+                            <a class="btn btn-primary btn-sm" role="button" asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-pencil-square" aria-hidden="true"></i>  Edit</a>
+                            <a class="btn btn-secondary btn-sm" role="button" asp-action="Details" asp-route-id="@item.Id"><i class="fa fa-info-circle" aria-hidden="true"></i> Details</a>
+            </td>
+            <td>
+              <a class="btn btn-danger btn-sm" role="button" asp-action="Delete" asp-route-id="@item.Id"><i class="fa fa-trash" aria-hidden="true"></i></a>
+              </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+    <a class="btn btn-primary" role="button"  asp-action="Create">Create New</a>
+</div>
+</div>

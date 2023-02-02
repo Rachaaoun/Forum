@@ -1,0 +1,84 @@
+﻿@model IEnumerable<ThirdForum.Models.Sujet>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../Back/assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../../Back/assets/img/favicon.png">
+    <title>
+        Soft UI Dashboard by Creative Tim
+    </title>
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <!-- Nucleo Icons -->
+    <link href="../../Back/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="../../Back/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <link href="../../Back/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link id="pagestyle" href="../../Back/assets/css/soft-ui-dashboard.css?v=1.0.7" rel="stylesheet" />
+</head>
+
+<style>
+    th {
+        text-align: center;
+    }
+
+</style>
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-primary" role="button"  asp-action="Create">Create New</a>
+</p>
+<table class="table  table-bordered">
+    <thead>
+        <tr>
+            <th>
+Sujet            </th>
+            <th>
+               Photo
+            </th>
+            <th>
+                Description
+            </th>
+            <th>Theme</th>
+            <th>Action</th>
+
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomSujet)
+            </td>
+            <td>
+                    <center>
+                        <img src="@item.Photo" width="50px">
+                    </center>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+                <td>
+                    <span class="badge badge-pill badge-success" style="background-color: #00b17f;">
+                        @Html.DisplayFor(modelItem => item.Theme.NomTheme)
+                    </span>
+                </td>
+            <td>
+                                 <a class="btn btn-primary btn-sm" role="button" asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-pencil-square" aria-hidden="true"></i>  Edit</a>
+                                <a class="btn btn-secondary btn-sm" role="button" asp-action="Details" asp-route-id="@item.Id"><i class="fa fa-info-circle" aria-hidden="true"></i> Details</a>
+                                <a class="btn btn-danger btn-sm" role="button" asp-action="Delete" asp-route-id="@item.Id"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
