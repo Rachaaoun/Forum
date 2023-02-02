@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oL/1BT6goIiPz5wy9D8sI0wuoynape/65z/e3v5YOPCBZo4KKFcsE/abcMfJYx9V8UlOS5JP37csZUFZud5DXQ==",
+  "dgSpecHash": "WuTAh/3BtBrmTzKvLkiCDtQrdCaIIJOFcqMjwoEPad4s9awrMdoxqTtPNZWBPMl742pzmodjw4J+euP5MOmL8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\king\\Desktop\\ThirdForum\\ThirdForum\\ThirdForum.csproj",
+  "projectFilePath": "C:\\Users\\king\\Documents\\GitHub\\Forum\\ThirdForum\\ThirdForum.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\king\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\king\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

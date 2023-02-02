@@ -11279,11 +11279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\king\\Desktop\\ThirdForum\\ThirdForum\\ThirdForum.csproj",
+      "projectUniqueName": "C:\\Users\\king\\Documents\\GitHub\\Forum\\ThirdForum\\ThirdForum.csproj",
       "projectName": "ThirdForum",
-      "projectPath": "C:\\Users\\king\\Desktop\\ThirdForum\\ThirdForum\\ThirdForum.csproj",
+      "projectPath": "C:\\Users\\king\\Documents\\GitHub\\Forum\\ThirdForum\\ThirdForum.csproj",
       "packagesPath": "C:\\Users\\king\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\king\\Desktop\\ThirdForum\\ThirdForum\\obj\\",
+      "outputPath": "C:\\Users\\king\\Documents\\GitHub\\Forum\\ThirdForum\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\king\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -9,125 +9,125 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ThirdForum
 build_property.RootNamespace = ThirdForum
-build_property.ProjectDir = C:\Users\king\Desktop\ThirdForum\ThirdForum\
+build_property.ProjectDir = C:\Users\king\Documents\GitHub\Forum\ThirdForum\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\king\Desktop\ThirdForum\ThirdForum
+build_property.MSBuildProjectDirectory = C:\Users\king\Documents\GitHub\Forum\ThirdForum
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Admin/Index.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Home/Index.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Home/Privacy.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Login/login.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Login/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cbG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/MessageSujetUsers/Index.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/MessageSujetUsers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVN1amV0VXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Shared/Error.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/SujetsAdmin/Create.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/SujetsAdmin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VqZXRzQWRtaW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/SujetsAdmin/Delete.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/SujetsAdmin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VqZXRzQWRtaW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/SujetsAdmin/Details.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/SujetsAdmin/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VqZXRzQWRtaW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/SujetsAdmin/Edit.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/SujetsAdmin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VqZXRzQWRtaW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/SujetsAdmin/Index.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/SujetsAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VqZXRzQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Sujet/Details.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Sujet/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VqZXRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Sujet/Index.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Sujet/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VqZXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Sujet/update.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Sujet/update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VqZXRcdXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Sujet/updateMes.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Sujet/updateMes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VqZXRcdXBkYXRlTWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Themes/Create.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Themes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Themes/Delete.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Themes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Themes/Details.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Themes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Themes/Edit.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Themes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Themes/Index.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Themes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Users/Create.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Users/Delete.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Users/Details.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Users/Edit.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Users/Index.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/_ViewImports.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/_ViewStart.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/king/Desktop/ThirdForum/ThirdForum/Views/Shared/_Layout.cshtml]
+[C:/Users/king/Documents/GitHub/Forum/ThirdForum/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-h4t76wdo4j
